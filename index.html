@@ -1,27 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Novotel</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/fc62ec0ec2.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Novotel</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/fc62ec0ec2.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
-        <a href="index.html"><img src="assets/header_logo.png" alt=""></a>
-        <div class="search">
-            <input type="text" placeholder="Find your nearest Novotel">
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
-        </div>
-        <div class="header_ft">
-          <a href="#">Explore Services</a>
-          <i class="fa-solid fa-grip-lines-vertical"></i>
-          <a href="#">Contact Us</a>
-          <i class="fa-solid fa-grip-lines-vertical"></i>
-          <a href="#">Complaints</a>
-        </div>
-    </header>
+  <header>
+    <a href="index.html"><img src="assets/header_logo.png" alt="" /></a>
+    <div class="search">
+      <input type="text" placeholder="Find your nearest Novotel" />
+      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div class="header_ft">
+      <a href="#">Explore Services</a>
+      <i class="fa-solid fa-grip-lines-vertical"></i>
+      <a href="#">Contact Us</a>
+      <i class="fa-solid fa-grip-lines-vertical"></i>
+      <a href="#">Complaints</a>
+    </div>
+  </header>
+  <section class="booking_container">
+    <div class="title">
+      <h1>Choose your stay</h1>
+    </div>
+    <div class="bking_details" id="location">
+      <i class="fa-solid fa-location-dot"></i>
+      <input type="text" list="cities" placeholder="Enter pincode or choose from the list" />
+      <datalist id="cities">
+        <option value="Delhi"></option>
+        <option value="Mumbai"></option>
+        <option value="Kolkata"></option>
+        <option value="Chennai"></option>
+        <option value="Bengaluru"></option>
+        <option value="Hyderabad"></option>
+        <option value="Ahmedabad"></option>
+        <option value="Pune"></option>
+      </datalist>
+    </div>
+    <div class="bking_details" id="date">
+      <!-- this div display will be flex -->
+       <label for="from">From</label>
+       <input type="date">
+       <label for="to">TO</label>
+       <input type="date">
+    </div>
+    <div class="bking_details" id="price">
+      <!-- this div display will be flex -->
+      <p>Total</p>
+      <i class="fa-solid fa-indian-rupee-sign"></i>
+      <a href="#">15000.00</a>
+    </div>
+    <div class="bking_details" id="consent">
+      <input type="radio">
+      <a href="#">I agree the Terms and Conditions</a>
+    </div>
+    <div class="submit">
+      <button>Book Now</button>
+    </div>
+  </section>
 </body>
+
 </html>

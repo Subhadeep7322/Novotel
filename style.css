@@ -13,92 +13,106 @@ body {
 }
 
 header {
-    width: 100vw;
-    height: 35vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: url(assets/header_background.jpg);
-    background-size: cover;
-    background-position: top;
-    position: relative;
-    box-shadow: 0 0 20px rgb(0, 0, 0);
+  width: 100vw;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(assets/header_background.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
 }
 
 header::before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: black;
-    opacity: .7;
-    z-index: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: black;
+  opacity: 0.7;
+  z-index: 0;
 }
 
 header img {
-    filter: invert(1);
-    width: 50vw;
+  filter: invert(1);
+  width: 50vw;
 }
 
 header .search {
-    width: 100vw;
-    height: 5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-    margin-top: 1vh;
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  margin-top: 1vh;
 }
 
 header .search input {
-    width: 55vw;
-    height: 5vh;
-    border: none;
-    border-radius: 35px;
-    padding-left: 5vw;
-    font-size: .7rem;
-    background-color: rgba(255, 255, 255, 0.114);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+  color: white;
+  width: 55vw;
+  height: 5vh;
+  border: none;
+  border-radius: 35px;
+  padding-left: 5vw;
+  font-size: 0.7rem;
+  background-color: rgba(255, 255, 255, 0.114);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 
 header .search input::placeholder {
-    color: rgba(255, 255, 255, 0.4);
-    letter-spacing: 1px;
-    font-size: .6rem;
+  color: rgba(255, 255, 255, 0.4);
+  letter-spacing: 1px;
+  font-size: 0.6rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 header .search button {
-    width: 7vw;
-    height: 5vh;
-    border-radius: 50%;
-    position: absolute;
-    right: 22vw;
-    border: none;
-    background-color: #D4AF37;
+  width: 7vw;
+  height: 5vh;
+  border-radius: 50%;
+  position: absolute;
+  right: 22vw;
+  border: none;
+  background-color: #d4af37;
 }
 
 .header_ft {
-    width: 100vw;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header_ft a {
-    color: rgba(255, 255, 255, 0.771);
-    text-decoration: none;
-    z-index: 1;
-    padding: 0 5vw;
-    font-weight: 100;
-    font-size: .8rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(255, 255, 255, 0.771);
+  text-decoration: none;
+  z-index: 1;
+  padding: 0 5vw;
+  font-weight: 100;
+  font-size: 0.8rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .header_ft i {
-    filter: invert(1);
-    opacity: .7;
-    font-size: .7rem;
+  filter: invert(1);
+  opacity: 0.7;
+  font-size: 0.7rem;
 }
+
+/* ++++++++++ Booking section ++++++++++ */
+
+
+
+
+
+
+
+
